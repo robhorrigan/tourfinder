@@ -1,4 +1,14 @@
+@import "base";
+
 .route--active {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -18px;
+  text-align: center;
+  background-color: $gray-background;
 }
