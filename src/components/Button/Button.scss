@@ -1,0 +1,30 @@
+@import "base";
+
+.Button {
+  width: 300px;
+  height: 60px;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: $slate;
+
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $pure-white;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+
+  &:hover {
+    color: $slate;
+    background-color: $pure-white;
+  }
+  &:active {
+    background-color: $black;
+  }
+  &:disabled {
+    opacity: 0.5;
+  }
+}
