@@ -1,9 +1,34 @@
+@import "base";
+
 .duck {
   display: block;
   width: 120px;
   margin: 1.5rem auto;
 }
 
-.googleButton {
+.instructions {
+  font-weight: 300;
+}
 
+.google-button {
+  color: $bright-white;
+  background-color: #DD4B39;
+
+  border: none;
+
+  margin-top: 5px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.breadcrumbs {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.calendar-icon {
+  width: 250px;
 }
