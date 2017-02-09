@@ -26,10 +26,10 @@ export default class GoogleAuthButton extends React.Component {
   _listUpcomingEvents () {
     let request = gapi.client.calendar.events.list({
       'calendarId': 'primary',
-      'timeMin': (new Date()).toISOString(),
+      'timeMin': (new Date(2016, 9, 15)).toISOString(),
       'showDeleted': false,
       'singleEvents': true,
-      'maxResults': 10,
+      'maxResults': 100,
       'orderBy': 'startTime'
     })
 
